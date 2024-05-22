@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEKNIK PENGELASAN</title>
+</head>
+
+<style>
+           .kuk {
+                margin-left: 20px;
+            font-size: 40px;
+            font-family: Sitka Small Semibold;
+            opacity: 0;
+            animation: slideTop 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+
+        @keyframes slideTop {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 19;
+            }
+        }
+
+        span {
+                font-size: 64px;
+                font-family: Sitka Small Semibold;
+                /* margin-left: 290px; */
+                color: red;
+            } 
+
+
+            
+            .po {
+                margin-left: 20px;
+                font-size: 28px;
+                font-family: Sitka Small Semibold;
+                color: mediumblue;
+                opacity: 0;
+            animation: slideTop 1s ease forwards;
+            animation-delay: .9s;
+        }
+
+
+        @keyframes slideTop {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 23;
+            }
+        }
+
+        .oi {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .lo {
+            position: relative;
+            margin-left: 20px;
+            font-size: 12px;
+            margin-top: 30px;
+            opacity: 0;
+            animation: slideRight 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideRight {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .loo {
+            position: relative;
+            margin-left: 20px;
+            font-size: 12px;
+            margin-top: 30px;
+            opacity: 0;
+            animation: slideRight 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideRight {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .pl {
+            margin-left: 20px;
+            margin-top: 40px;
+            opacity: 0;
+            animation: slideRight 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideRight {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .k1 {
+            margin-left: 20px;
+            font-size: 15px;
+            color: red;
+            margin-top: 50px;
+            opacity: 0;
+            animation: slideTop 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+
+        @keyframes slideTop {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .l {
+        margin-left: 20px;
+        font-size: 25px;
+        margin-top: 70px;
+        font-family: Sitka Small Semibold;
+        color: mediumblue;
+        opacity: 0;
+        animation: slideTop 1s ease forwards;
+        animation-delay: .9s;
+    }
+
+
+    @keyframes slideTop {
+        0%{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0px);
+            opacity: 23;
+        }
+    }
+
+    .lop {
+        margin-left: 20px;
+        font-size: 12px;
+        opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .rt {
+        width: 180px;
+            /* margin-top: 20px; */
+            margin-left: 55px;
+            height: 40px;
+            background: black;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+            font-weight: 600;
+            opacity: 0;
+            animation: slideTop 1s ease forwards;
+            animation-delay: .9s;
+        }
+
+
+        @keyframes slideTop {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 23;
+            }
+        }
+            
+</style>
+<body>
+
+    <div class="kuk">
+        <h2>WELCOME TO INFORMASI TEKNIK <span>PENGELASAN</span></h2>
+    </div>
+    <img class="oi" src="img/65.png" alt="">
+    <p class="pl">Pengelasan adalah teknik penggabungan bahan logam menggunakan bantuan energi panas baik dengan atau tanpa bahan pengisi (filler). <br> Beberapa bahan logam membutuhkan proses dan teknik khusus dalam pengelasan. <br> Bahan-bahan logam yang digabungkan disebut bahan induk dan bahan yang ditambahkan untuk menggabungkan bahan induk adalah bahan pengisi/filler.</p>
+
+    <h2 class="po">Apa itu Teknik Pengelasan..?</h2>
+    <img class="oi" src="img/59.png" alt="">
+    <p class="lo">Siapa yang tidak mengenal teknik pengelasan? Bagi para ahli dan pemula di bidang konstruksi, otomotif, dan sejumlah industri lainnya, pengelasan adalah seni yang penting untuk mendapatkan sambungan logam yang kuat dan tahan lama. <br> Ternyata, di balik kesederhanaannya, ada banyak macam teknik pengelasan yang perlu dipelajari dan dikuasai.</p>
+
+    <h2 class="l">Teknik Pengelasan Terpopuler yang Perlu Kamu Tahu</h2>
+    <img class="oi" src="img/60.png" alt="">
+    <p class="loo">Berikut ini adalah beberapa teknik pengelasan yang paling populer dan umum digunakan. <br> Setiap teknik memiliki kelebihan dan kelemahan sendiri-sendiri, tergantung pada jenis material yang digunakan dan kebutuhan proyek yang sedang dijalankan.</p>
+
+    <h2 class="k1">1. Pengelasan MIG/MAG (Metal Inert Gas/Metal Active Gas)</h2>
+    <p class="lop">Jika kamu ingin melakukan pengelasan yang cepat dan efisien, teknik MIG/MAG adalah pilihan yang tepat. <br> Dalam teknik ini, busur kuat dihasilkan antara elektrode terus-menerus (Wire) dan benda kerja yang akan disatukan. <br> Keunggulan utama dari MIG/MAG adalah kemampuannya dalam mengelas logam non-ferrous seperti aluminium dengan hasil yang rapi dan tidak banyak menghasilkan bahan pengisi.</p><br>
+
+    <h2 class="k1">2. Pengelasan TIG (Tungsten Inert Gas)</h2>
+    <p class="lop">Jika projekmu mengharuskanmu melakukan pengelasan akurat dengan hasil yang jelas dan presisi tinggi, teknik TIG adalah pilihan yang tepat. <br> Dalam teknik ini, busur kuat dihasilkan antara elektrode tungsten (T) dan benda kerja, sementara gas inert (seperti argon) digunakan untuk melindungi daerah pengelasan dari kontaminasi oksigen sehingga memastikan hasil yang kuat dan tahan lama.</p><br>
+
+    <h2 class="k1">3. Pengelasan Elektron (Electron Beam Welding)</h2>
+    <p class="lop">Kamu mencari teknik pengelasan yang memiliki energi tinggi dan sangat cocok untuk pengelasan material dengan konduktivitas tinggi seperti logam dengan titik lebur tinggi? <br> Pengelasan elektron adalah jawabannya! Dalam teknik ini, elektron dengan energi tinggi diarahkan oleh medan <br> elektromagnetik dan bertumbukan dengan permukaan benda kerja untuk menciptakan sambungan yang kuat dan akurat.</p><br>
+
+    <h2 class="l">Tips-Tips Penting untuk Teknik Pengelasan yang Sukses</h2>
+    <p class="lop">Memiliki pengetahuan dan keahlian dalam teknik-teknik pengelasan tersebut saja belum cukup. <br> Kamu juga perlu memperhatikan beberapa tips penting berikut untuk mencapai hasil pengelasan yang sukses:</p><br>
+
+    <h2 class="k1">1. Persiapkan Material dengan Baik</h2>
+    <p class="lop">Sebelum memulai pengelasan, pastikan bahwa permukaan material yang akan disambung bersih dari kotoran, karat, dan minyak. <br> Bersihkan permukaannya dengan bahan yang tepat agar pengelasan dapat dilakukan dengan optimal.</p><br>
+
+    <h2 class="k1">2. Atur Cahaya dan Ventilasi yang Tepat</h2>
+    <p class="lop">Pengelasan membutuhkan cahaya yang cukup terang agar kamu dapat melihat dengan jelas proses pengelasan. <br> Pastikan ruangan memiliki ventilasi yang baik, terutama jika kamu menggunakan teknik pengelasan yang menghasilkan gas beracun.</p><br>
+
+    <h2 class="k1">3. Gunakan Perlindungan Diri yang Tepat</h2>
+    <p class="lop">Pengelasan adalah proses yang berpotensi berbahaya dan dapat menghasilkan percikan api dan radiasi panas. <br> Selalu gunakan alat perlindungan diri seperti helm pengaman, mantel tahan api, sarung tangan, dan sepatu keselamatan untuk melindungi diri dari bahaya.</p><br>
+
+    <h2 class="k1">4. Tetap Konsentrasi dan Sabar</h2>
+    <p class="lop">Pengelasan memerlukan konsentrasi dan ketelitian yang tinggi. <br> Jangan terburu-buru dan lakukan dengan hati-hati. Ingatlah, hasil pengelasan yang buruk dapat menyebabkan sambungan yang rapuh dan berisiko terhadap kecelakaan atau kerusakan proyek. <br>
+
+        Dengan menguasai teknik-teknik pengelasan yang beragam serta menerapkan tips-tips yang tepat, kamu akan dapat menghasilkan pengelasan yang kokoh, <br> presisi tinggi, dan tahan lama. Ingatlah bahwa keahlian dan pengalaman adalah kunci utama dalam menguasai seni pengelasan ini. Selamat mencoba!</p> <br>
+
+        <h2 class="l">Apa Itu Macam-Macam Teknik Pengelasan?</h2>
+        <p class="lop">Proses pengelasan adalah suatu metode penyambungan dua atau lebih logam dengan menggunakan panas. <br> Salah satu bagian penting dalam proses pengelasan adalah teknik pengelasan yang digunakan. <br> Teknik pengelasan bervariasi dan dipilih berdasarkan sifat logam yang akan disambung, kekuatan yang diinginkan, dan kondisi lingkungan di mana pengelasan dilakukan.</p><br>
+
+        <h2 class="k1">Pengelasan Gas (Gas Welding)</h2>
+        <p class="lop">Pengelasan gas merupakan salah satu teknik yang paling umum digunakan dalam industri. <br> Teknik ini melibatkan penggunaan bahan bakar gas, seperti gas alam atau gas asetilin, yang digunakan untuk menghasilkan api yang sangat panas. <br> Logam yang ingin disambung dipanaskan menggunakan panas api tersebut dan kemudian dileburkan dengan bahan tambahan berupa logam pengisi atau filler metal. <br> Proses pengelasan gas umumnya dilakukan dengan menggunakan tangan atau mesin pengelasan.</p><br>
+
+        <h2 class="k1">Pengelasan Listrik (Arc Welding)</h2>
+        <p class="lop">Pengelasan listrik menggunakan panas yang dihasilkan oleh busur listrik untuk menyambung logam. <br> Teknik ini dapat menggunakan berbagai sumber daya listrik, seperti listrik AC atau DC, yang digunakan untuk menghasilkan busur listrik. <br> Busur listrik yang dihasilkan antara elektroda dan logam kerja memberikan panas yang cukup untuk melelehkan logam tersebut dan menyatukannya. <br> Proses pengelasan listrik umumnya dilakukan dengan menggunakan mesin pengelasan yang dapat dikendalikan.</p><br>
+
+        <h2 class="k1">Pengelasan Kontak (Resistance Welding)</h2>
+        <p class="lop">Pengelasan kontak merupakan teknik pengelasan yang menggunakan tekanan dan arus listrik yang diberikan pada area sambungan untuk memanaskan dan menyatukan logam. <br> Teknik ini umumnya digunakan untuk penyambungan logam tipis, seperti plat logam atau kawat. <br> Logam yang ingin disambung ditempatkan di antara dua elektroda yang diberikan tekanan secara mekanis. <br>beKemudian arus listrik dialirkan melalui logam tersebut, menciptakan panas yang cukup untuk menyatukan logam. <br>Setelah logam mendingin, tekanan dilepas dan logam menjadi saling terikat.</p><br>
+
+        <h2 class="l">Cara Macam-Macam Teknik Pengelasan</h2>
+        <h2 class="k1">Persiapan</h2>
+        <p class="lop">Langkah pertama dalam pengelasan adalah persiapan. Pastikan permukaan logam yang ingin disambung bersih dari kotoran, karat, dan cat. <br> Gunakan sikat kawat atau pembersih logam yang sesuai untuk membersihkan permukaan. <br> Selanjutnya, tentukan metode dan teknik pengelasan yang sesuai untuk pekerjaan yang akan dilakukan.</p><br>
+
+        <h2 class="k1">Pemasangan Elektroda</h2>
+        <p class="lop">Jika Anda menggunakan pengelasan listrik (arc welding), langkah selanjutnya adalah memasang elektroda. <br> Elektroda adalah batang logam yang digunakan untuk menghasilkan busur listrik. Pilih elektroda yang sesuai dengan jenis logam yang akan disambung. <br> Kemudian pasang elektroda pada pemegang elektroda yang terhubung dengan mesin pengelasan.</p> <br>
+
+        <h2 class="k1">Penyiapan Aliran Gas</h2>
+        <p class="lop">Jika Anda menggunakan pengelasan gas (gas welding), pastikan Anda telah menyiapkan aliran gas yang tepat. <br> Gunakan gas yang sesuai dengan logam yang akan disambung. <br> Atur aliran gas dengan mengontrol pengaturan pada tabung gas dan regulator gas. <br> Pastikan juga alat pengelasan gas dalam kondisi baik dan siap digunakan.</p><br>
+
+        <h2 class="k1">Pengelasan</h2>
+        <p class="lop">Setelah semua persiapan selesai, mulailah proses pengelasan. Terapkan teknik pengelasan yang sesuai dengan metode yang Anda gunakan. <br> Pastikan Anda mengikuti instruksi pengelasan secara benar dan hati-hati. <br> Jaga keamanan dan gunakan perlindungan yang sesuai, seperti helm pengaman, kacamata welding, baju pengaman, dan sarung tangan tahan panas. <br> Lakukan pengelasan dengan perlahan dan pastikan logam bersentuhan erat selama proses pengelasan.</p> <br>
+
+        <h2 class="k1">Pemeriksaan dan Penyelesaian</h2>
+        <p class="lop">Setelah proses pengelasan selesai, lakukan pemeriksaan terhadap hasil pengelasan. <br> Perhatikan kualitas sambungan logam, apakah telah terikat dengan kuat dan rapi. <br> Jika diperlukan, lakukan penyelesaian tambahan, seperti pemotongan atau finishing, untuk mendapatkan hasil yang diinginkan. <br> Pastikan hasil pengelasan telah memenuhi standar keselamatan dan kualitas.</p><br>
+
+        <h2 class="l">Pertanyaan Mengenai Teknik Pengelasan</h2>
+        <h2 class="k1">1. Apa yang dimaksud dengan logam pengisi atau filler metal pada pengelasan gas?</h2>
+        <p class="lop">Logam pengisi atau filler metal adalah logam tambahan yang digunakan dalam proses pengelasan gas untuk mengisi ruang antara kedua logam yang ingin disambung. <br> Logam pengisi ini memiliki titik lebur yang lebih rendah dari logam yang akan disambung agar dapat meleleh dengan mudah ketika terkena panas api. <br> Penggunaan logam pengisi bertujuan untuk memperkuat sambungan logam dan mencegah terjadinya retak atau keretakan.</p><br>
+
+        <h2 class="k1">2. Apa perbedaan antara pengelasan listrik AC dan DC?</h2>
+        <p class="lop">Pengelasan listrik AC (Alternating Current) dan DC (Direct Current) mengacu pada jenis arus listrik yang digunakan dalam proses pengelasan. <br> Perbedaan utama antara keduanya adalah polaritas arus listrik yang digunakan. <br> Pada pengelasan AC, arus listrik yang digunakan berganti arah secara teratur, sedangkan pada pengelasan DC, arus listrik mengalir searah. <br> Polaritas arus listrik ini mempengaruhi karakteristik busur listrik, kekuatan busur, dan kualitas pengelasan.</p><br>
+
+        <h2 class="k1">3. Apa keuntungan pengelasan kontak dibandingkan dengan teknik pengelasan lainnya?</h2>
+        <p class="lop">Pengelasan kontak memiliki beberapa keuntungan dibandingkan dengan teknik pengelasan lainnya. <br> Salah satu keuntungannya adalah prosesnya yang cepat dan efisien. <br> Pengelasan kontak dapat dilakukan dalam waktu singkat, karena panas yang dihasilkan langsung diterapkan pada logam yang ingin disambung. <br> Selain itu, pengelasan kontak juga menghasilkan sambungan yang kuat dan tahan lama, karena logam yang ingin disambung dilelehkan dan menyatu secara langsung. <br> Pengelasan kontak juga tidak memerlukan penggunaan logam pengisi tambahan, sehingga biaya produksi dapat ditekan.</p> <br>
+
+        <h2 class="l">Kesimpulan</h2>
+        <p class="lop">Teknik pengelasan memainkan peran penting dalam proses penyambungan logam. Dalam artikel ini, telah dibahas apa itu macam-macam teknik pengelasan dan cara-cara melakukannya. <br>Pengelasan gas, pengelasan listrik, dan pengelasan kontak merupakan beberapa teknik pengelasan yang umum digunakan dalam industri. <br> Setiap teknik pengelasan memiliki kelebihan dan kekurangan sendiri, dan pemilihan teknik yang tepat harus mempertimbangkan sifat logam yang ingin disambung, sifat sambungan yang diinginkan, dan kondisi lingkungan di mana pengelasan dilakukan. <br><br>
+
+            Pastikan Anda selalu memperhatikan persiapan yang baik sebelum melakukan pengelasan dan mengikuti instruksi pengelasan dengan hati-hati. <br> Jangan lupa untuk menggunakan perlindungan yang sesuai dan melakukan pemeriksaan terhadap hasil pengelasan. <br> Dengan menguasai teknik pengelasan yang tepat, Anda dapat menghasilkan sambungan logam yang kuat dan berkualitas tinggi. <br><br>
+            
+            Jika Anda tertarik untuk mempelajari lebih lanjut tentang teknik pengelasan, ada banyak sumber daya dan kursus yang tersedia. <br> Mulailah mempelajarinya dan terapkan teknik pengelasan dengan baik dalam pekerjaan Anda. Selamat mencoba!
+            </p><br><br><br>
+            
+            <a href="jurusan.html"> <button class="rt" type="button">Back</button></a>
+
+            <br><br>
+
+</body>
+</html>

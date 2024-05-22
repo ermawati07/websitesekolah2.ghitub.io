@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPIB</title>
+</head>
+
+<style>
+        .kuk{
+        margin-left: 20px;
+        font-size: 40px;
+        font-family: Sitka Small Semibold;
+        opacity: 0;
+        animation: slideTop 1s ease forwards;
+        animation-delay: .1s;
+    }
+
+
+    @keyframes slideTop {
+        0%{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+
+    span {
+            font-size: 70px;
+            font-family: Sitka Small Semibold;
+            /* margin-left: 200px; */
+            color: lawngreen;
+        } 
+
+    
+    .py {
+        margin-top: 40px;
+        width: 500px;
+        height: 300px;
+        box-shadow: 15px 0 15px black;
+        border-radius: 15px;
+        opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .po {
+            position: relative;
+            margin-top: 30px;
+            margin-left: 20px;
+            font-size: 20px;
+            color: blue;
+            opacity: 0;
+            animation: slideTop 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+
+        @keyframes slideTop {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .lo {
+            position: relative;
+            margin-top: 30px;
+            margin-left: 20px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .l {
+            margin-top: 50px;
+            margin-left: 20px;
+            font-size: 17px;
+            color: blue;
+            opacity: 0;
+            animation: slideTop 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+
+        @keyframes slideTop {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .li {
+            margin-left: 20px;
+            opacity: 0;
+            animation: slideTop 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+
+        @keyframes slideTop {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .lop {
+            position: relative;
+            margin-top: 30px;
+            margin-left: 20px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .loi {
+            position: relative;
+            margin-top: 30px;
+            margin-left: 20px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+
+        .lp {
+            margin-left: 20px;
+            font-size: 15px;
+            color: red;
+            /* margin-top: -20px; */
+            opacity: 0;
+            animation: slideTop 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+
+        @keyframes slideTop {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .lpi {
+            margin-left: 20px;
+            font-size: 15px;
+            color: red;
+            margin-top: 50px;
+            opacity: 0;
+            animation: slideTop 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+
+        @keyframes slideTop {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .ol {
+            margin-top: -25px;
+            margin-left: 20px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .rt {
+        width: 180px;
+            /* margin-top: 20px; */
+            margin-left: 55px;
+            height: 40px;
+            background: black;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+            font-weight: 600;
+    }
+
+</style>
+<body>
+
+    <div class="kuk">
+        <h2>WELCOME TO INFORMASI DESAIN PERMODELAN DAN INFORMASI <span>BANGUNAN [DPIB]</span></h2>
+    </div>
+    <img class="py" src="img/56.png" alt="">
+
+    <h2 class="po">Jurusan Desain permodelan dan Informasi Bangunan [DPIB]</h2>
+    <p class="lo">Salah satu jurusan yang semakin diminati dan berkembang saat ini adalah Jurusan Desain Pemodelan dan Informasi Bangunan (DPIB). Jurusan Desain Pemodelan dan Informasi Bangunan dalam SMK adalah program keahlian yang menekankan pembelajaran mengenai desain permodelan dan informasi bangunan. Siswa dalam jurusan ini akan mempelajari berbagai keterampilan terkait dengan perancangan, pemodelan, dan dokumentasi bangunan.</p>
+
+    <h2 class="l">Apa Saja Mata Pelajaran yang Dipelajari di Jurusan Ini?</h2>
+    <p class="li">SMK Jurusan Desain Pemodelan dan Informasi Bangunan memiliki kurikulum yang dirancang khusus untuk mempersiapkan siswa dalam berbagai aspek desain, pemodelan, dan informasi bangunan.
+        Mata pelajaran yang dipelajari dalam jurusan ini mencakup berbagai keterampilan yang diperlukan untuk sukses dalam industri konstruksi dan arsitektur. Berikut adalah beberapa mata pelajaran yang umumnya diajarkan dalam jurusan ini:</p> <br>
+
+        <h2 class="l">DPIB adalah Desain Permodelan dan Informasi Bangunan</h2>
+        <img class="py" src="img/54.png" alt="">
+        <p class="lop">
+            Secara umum Desain Permodelan dan Informasi bangunan (DPIB) mempelajari ilmu tentang gambar konstruksi bangunan atau perencanaan bangunan, pelaksana bangunan, konstruksi bangunan, pengukuran tanah, gambar konstruksi menggunakan aplikasi komputer baik 2D maupun 3D, desain interior dan eksterior, konstruksi jalan dan jembatan, menghitung RAB, laporan pemangunan, dll. <br>
+            
+            Adapun pendapat lain yang menyatakan bahwa Desain Pemodelan dan Informasi Bangunan adalah jurusan yang mempelajari tentang perencanaan bangunan, pelaksanaan pembuatan gedung dn perbaikan gedung. <br> kegiatannya adalah belajar menggambar rumah, gedung dan apartemen, menghitung biaya bangunan, melaksankan pembangunan dan memelihara kontruksi bangunan.</p>
+
+
+            <h2 class="l">TUJUAN</h2>
+            <img class="py" src="img/57.png" alt="">
+            <p class="lop">Tujuan Kompetensi Keahlian Desain Pemodelan dan Informasi Bangunan adalah membekali peserta didik dengan keterampilan, pengetahuan dan sikap agar kompeten dalam : <br>
+
+                Melakukan pekerjaan sebagai Drafter/Juru Gambar dalam pekerjaan perencanaan bangunan.  <br>Melakukan pekerjaan sebagai Drafter/Juru Gambar dalam pekerjaan pelaksanaan bangunan. <br>Melakukan pekerjaan jasa penggambaran bangunan secara mandiri / berwirausaha di Studio Gambar.</p>
+
+                <h2 class="l">8 PROSPEK PEKERJAAN DI JURUSAN DPIB</h2>
+                <img class="py" src="img/58.png" alt="">
+                <p class="loi">DRAFTER : Drafter bertugas membuat gambar bangunan baik itu gambar bangunan, gambar pelaksanaan / shop drawing atau gambar asbuilt drawing. <br>
+
+                    QUANTITY SURVEYOR : Bertugas menghitung volume item pekerjaan bangunan, jumlah material dan tenaga kerja yang dibutuhkan. <br>
+                    
+                    
+                    
+                    PELAKSANA LAPANGAN : Bertugas memanajemen pekerjaan pembangunan agar sesuai dengan batasan waktu yang ditargetkan, mengontrol kualitas pekerjaan, serta mengarahkan mandor atau tukang bangunan. <br>
+                    
+                    QUALITY QONTROL : Bertugas mengontrol kualitas pekerjaan proyek. <br>
+                    
+                    PENGENDALIAN PROYEK : Menghitung rencana anggaran biaya bangunan, rencana anggaran biaya pelaksanaan pada setiap pekerjaan bangunan dan memikirkan bagaimana sebuah pekerjaan bangunan memberikan keuntungan yang maksimal. <br>
+                    
+                    LOGISTIK : Bertugas menjamin ketersediaan material pada proyek bangunan. <br>
+                    
+                    KONSULTAN PERENCANA : Membuat desain bangunan dan menawarkan jasa konsultasi. <br>
+                    
+                    KONTRAKTOR / PEMBORONG : Melakukan kontrak kerja kepada pemilik bangunan agar mempercayakan pelaksanaan pembangunanyau Ukur Tanah</p>
+<br><br><br><br>
+        <h4 class="lp">1. Desain Arsitektur</h4><br>
+        <p class="ol">Mata pelajaran ini mengajarkan dasar-dasar desain arsitektur, termasuk prinsip-prinsip desain, estetika, dan fungsionalitas bangunan.</p>
+        <h4 class="lp">2. Pemodelan 3D</h4><br>
+        <p class="ol">Siswa belajar tentang pemodelan tiga dimensi menggunakan perangkat lunak seperti AutoCAD, SketchUp, atau perangkat lunak pemodelan lainnya.</p>
+        <h4 class="lp">3. Pemodelan Informasi Bangunan (BIM)</h4><br>
+        <p class="ol">Siswa memahami konsep dan praktik BIM, termasuk bagaimana mengintegrasikan informasi bangunan ke dalam proyek konstruksi.</p>
+        <h4 class="lp">4. Teknologi Konstruksi</h4><br>
+        <p class="ol">Mata pelajaran ini mencakup pemahaman tentang teknologi konstruksi, bahan bangunan, dan metode konstruksi yang berbeda.</p>
+        <h4 class="lp">5. Dokumentasi Teknis</h4><br>
+        <p class="ol">Siswa belajar tentang pembuatan dokumen teknis yang diperlukan dalam proyek konstruksi, seperti gambar teknis, spesifikasi, dan perencanaan proyek.</p>
+        <h4 class="lp">6. Manajemen Proyek Konstruksi</h4><br>
+        <p class="ol">Mata pelajaran ini mengajarkan prinsip-prinsip dasar manajemen proyek konstruksi, termasuk perencanaan, pengendalian biaya, dan jadwal proyek.</p>
+        <h4 class="lp">7. Peraturan Bangunan</h4><br>
+        <p class="ol">Siswa memahami peraturan dan standar bangunan yang berlaku, serta peran penting kepatuhan terhadap peraturan dalam proyek konstruksi.</p>
+        <h4 class="lp">8. Computer Aided Design (CAD)</h4><br>
+        <p class="ol">Siswa memperoleh keterampilan dalam penggunaan perangkat lunak CAD untuk membuat gambar teknis dan perencanaan desain.</p>
+        <h4 class="lp">9. Keterampilan Komunikasi</h4><br>
+        <p class="ol">Pentingnya komunikasi dalam industri ini diakui, sehingga siswa juga diajarkan keterampilan komunikasi baik lisan maupun tertulis.</p>
+        <h4 class="lp">10. Praktik Kerja</h4><br>
+        <p class="ol">Sebagian besar program SMK melibatkan praktik kerja di lapangan, di mana siswa dapat mengaplikasikan pengetahuan dan keterampilan yang mereka pelajari dalam situasi nyata di tempat kerja. <br>
+            Mata pelajaran ini membantu siswa mengembangkan kemampuan yang luas dalam desain, pemodelan, dan manajemen informasi bangunan, mempersiapkan mereka untuk berbagai karier yang terkait dengan industri konstruksi dan arsitektur setelah lulus.</p>
+
+            <br><br><br><br>
+            <a href="jurusan.html"> <button class="rt" type="button">Back</button></a><br><br><br>
+    
+</body>
+</html>

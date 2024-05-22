@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEKNIK ALAT BERAT</title>
+</head>
+<body>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .p {
+            margin-left: 20px;
+        font-size: 40px;
+        font-family: Sitka Small Semibold;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        span {
+            font-size: 64px;
+            font-family: Sitka Small Semibold;
+            /* margin-left: 200px; */
+            color: yellow;
+        } 
+
+        .lu {
+            margin-left: 20px;
+            font-size: 12px;
+            opacity: 0;
+            animation: slideRight 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideRight {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .k1 {
+            margin-top: 50px;
+            margin-left: 20px;
+            font-size: 16px;
+            font-family: Sitka Small Semibold;
+            color: mediumblue;
+        }
+
+        .k5 {
+            margin-left: 20px;
+            font-size: 25px;
+            margin-top: 50px;
+            font-family: Sitka Small Semibold;
+            color: mediumblue;
+        }
+
+        .op {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .lu {
+            margin-left: 20px;
+        }
+
+        .k2 {
+            position: relative;
+            margin-left: 20px;
+            font-size: 12px;
+            margin-top: 30px;
+            opacity: 0;
+            animation: slideRight 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideRight {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .k6 {
+            margin-left: 20px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .oi {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .nm {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mn {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mo {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .k4 {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mb {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mv {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mc {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mx {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .zx {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .rt {
+        width: 180px;
+            /* margin-top: 20px; */
+            margin-left: 55px;
+            height: 40px;
+            background: black;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+            font-weight: 600;
+    }
+    </style>
+
+    <div class="p">
+        <h2>WELCOME TO INFORMASI TEKNIK <span> ALAT BERAT </span>[TAB]</h2>
+    </div><br><br>
+    <p class="lu">
+        Teknik Alat Berat adalah suatu program studi yang mempelajari penerapan ilmu fisika dalam praktik mesin-mesin besar yang berfungsi untuk membantu kegiatan konstruksi. <br> Mesin-mesin besar yang dimaksud adalah alat berat seperti escavator, bulldozer, grader, wheel loader, forklift, dan sebagainya.
+    </p>
+    
+    <h2 class="k5">
+        Apa itu Teknik Alat Berat?
+    </h2>
+    <img class="op" src="img/36.png" alt="">
+
+    <p class="k2">
+        Teknik Alat Berat adalah suatu program studi yang mempelajari penerapan ilmu fisika dalam praktik mesin-mesin besar yang berfungsi untuk membantu kegiatan konstruksi. <br> Mesin-mesin besar yang dimaksud adalah alat berat seperti escavator, bulldozer, grader, wheel loader, forklift, dan sebagainya. <br> Pada program studi ini akan dipelajari teknik perancangan dan produksi alat berat, serta metode perawatannya. Program studi Teknik Alat Berat berbasis vokasi dengan jenjang Diploma 3 (D3).</p>
+
+        <h2 class="k1">Jenis-Jenis Alat Berat | Penjelasan dan fungsinya</h2>
+        <p class="k6">Jenis-Jenis Alat Berat – Alat berat adalah mesin berukuran besar yang didesain untuk melakukan fungsi konstruksi seperti, pengerjaan tanah (earthworking), serta untuk memindahkan bahan bangunan ke tempat lain. <br>
+
+            Ada lima komponen yang terdapat pada alat berat, yaitu implemen, alat traksi, struktur, sumber tenaga dan transmisinya, serta sistem kendali. <br>
+            
+            Alat berat merupakan aspek penting didalam suatu proyek, utamanya pada proyek-proyek konstruksi maupun pertambangan dan kegiatan lainnya dengan skala yang besar. <br>
+            
+            Jenis-jenis alat berat disamping pekerjaan konstruksi juga meliputi pertanian, truk pengangkut, traktor, pertambangan dan kegiatan lainnya dengan skala besar.</p>
+
+            <h2 class="k1">Jenis-Jenis Alat Berat konstruksi</h2>
+            <p class="k6">
+                Ada beberapa jenis-jenis alat berat yang pada umumnya dipakai dalam melakukan pembangunan konstruksi, yakni sebagai berikut.
+
+                1. Bulldozer. <br>
+                2. Excavator. <br>
+                3. Wheel Loader & Track Loader <br>
+                4. Motor Scraper. <br>
+                5. Motor Grader. <br>
+                6. Asphalt Finisher. <br>
+                7. Mobile Crane. <br>
+                8. Pneumatic Tire Roller. <br>
+                9. Concrete Batching Plant. <br>
+                10. Tower Crane. <br><br>
+                Berikut adalah penjelasan selengkapnya.
+            </p>
+
+            <h2 class="k1">1. Bulldozer</h2>
+            <img class="oi" src="img/37.png" alt="">
+            <p class="k2">Bulldozer adalah alat berat yang umum dipakai untuk pengolah lahan. <br> Bulldozer digunakan sebagai alat pendorong material tanah hasil penggalian ke dapan atau ke samping, dan juga untuk membuat timbunan material. <br>
+
+                Ada jenis bulldoser khusus yang digunakan untuk pekerjaan di rawa yaitu biasa disebut dengan Swamp Bulldozer. <br>
+                
+                Bulldozer dapat dibedakan menjadi dua, yakni bulldoser yang menggunakan roda karet (Wheel Tractor Dozer) dan bulldoser yang menggunakan roda kelabang (Crawler Tractor Dozer). <br>
+                
+                Kekurangan alat ini adalah jarak tempuhnya terlalu pendek/tidak jauh, namun mampu menahan bebean yang sangat berat.</p>
+
+            <h2 class="k1">2. Excavator</h2>
+            <img class="nm" src="img/38.png" alt="">
+            <p class="k2">Excavator adalah alat penggali tanah dan juga dapat digunakan sebagai alatpemindah dan pengangkut material ke dalam truck. <br>
+
+                Istilah yang populer untuk jenis alat berat penggali ini adalah Excavator. <br> Excavator juga dapat digunakan sebagai alat pengangkut, namun sayangnya tidak dapat digunakan dalam jarak jauh.</p>
+
+            <h2 class="k1">3. Wheel Loader & Track Loader</h2>
+            <img class="mn" src="img/39.png" alt="">
+            <p class="k2">Wheel loader, track loader adalah alat yang memiliki sama fungsi dengan dozer, yaitu digunakan untuk pemindahan material dari satu alat ke alat yang lain dalam jarak dekat. <br>
+
+                Alat pemindah wheel loader dan track loader memiliki jarak tempuh sangat pendek karena sifatnya hanya memindahkan material saja, sedangkan alat angkut bisa menempuh jarak yang jauh seperti truk.</p>
+
+            <h2 class="k1">4. Motor Scraper</h2>
+            <img class="mo" src="img/41.png" alt="">
+            <p class="k2">Motor scrapper adalah sebuah alat berat yang digunakan untuk memotong lereng tanggul atau lereng bendungan, menggali tanah yang terdapat diantara bangunan beton dan juga untuk meratakan jalan raya. <br>
+
+                Proses kerja alat ini mampu menggali permukaan tanah sampai setebal + 2,5 mm dan menimbun suatu tempat sampai tebal minimum + 2,5 mm juga. <br>
+                
+                Namun alat ini memiliki kekurangan yang hanya bisa mengangkut dalam jarak yang dekat saja. <br>
+
+            <h2 class="k1">5. Motor Grader</h2>
+            <img class="k4" src="img/40.png" alt="">
+            <p class="k2">Fungsi motor grader adalah untuk meratakan pembukaan tanah secara mekanis dan untuk keperluan lain misalnya untuk penggusuran tanah, , meratakan tanggul, pencampuran tanah, pengurugan kembali galian tanah dan sebagainya.</p>
+
+            <h2 class="k1">6. Asphalt Finisher</h2>
+            <img class="mb" src="img/49.png" alt="">
+            <p class="k2">Jenis alat berat asphalt finisher adalah untuk menghamparkan campuran aspal yang dihasilkan dari alat produksi aspal.
+
+                Kekurangan alat berat jenis ini perputaran roda kelabang manuver lebih lama, karena roda karet daya ambangnya lebih kasar.</p>
+
+            <h2 class="k1">7. Mobile Crane</h2>
+            <img class="mv" src="img/48.png" alt="">
+            <p class="k2">Selanjutnya adalah mobile crane, alat berat ini digunakan sebagai pengangkut material.  <br>Penggunaan alat ini lebih mudah karena dapat berpindah tempat dengan mudah. <br>
+
+                Disamping kelebihannya alat ini memiliki kekurangan yaitu tidak bisa digunakan di permukaan air.</p>
+
+            <h2 class="k1">8. Pneumatic Tire Roller</h2>
+            <img class="mc" src="img/44.png" alt="">
+            <p class="k2">Alat berat pneumatic tire roller adalah alat yang digunakan pada pekerjaan penggilasan bahan granular, juga baik digunakan pada penggilasan lapisan hot mix. <br>
+
+                Umumnya yang banyak dipakai adalah mobile crane, sebab crane ini dapat dengan mudah dipindah-pindahkan, karena pekerjaan pemindahan tanah secara mekanis perlu mobilitas alat yang relatif tinggi.</p>
+
+            <h2 class="k1">9. Concrete Batching Plant</h2>
+            <img class="mx" src="img/45.png" alt="">
+            <p class="k2">Alat berat ini memiliki fungsi untuk mencampur atau memproduksi beton dalam produksi yang besar. <br>
+
+                Batching plant digunakan agar produksi beton ready mix tetap dalam kualitas yang terjaga baik, sesuai standar, nilai slump test dan trength-nya stabil sesuai yang diinginkan. <br>
+                
+                Kelebihan alat ini adalah  dapat mencampur atau memproduksi beton ready mix dalam produksi yang besar. <br>
+                
+                Disamping kelebihan terdapat kekurangan-nya karena hanya untuk menimbang saja.</p>
+
+            <h2 class="k1">10. Tower Crane</h2>
+            <img class="zx" src="img/46.png" alt="">
+            <p class="k2">Tower crane adalah suatu jenis alat berat yang sering dipakai untuk membangun jembatan, gedung bertingkat, apartemen. <br>
+
+                Alat tower crane ini memiliki fungsi untuk mengangkut material atau bahan konstruksi bangunan dari atas menuju bagian yang ada di atas.</p>
+                <br><br><br><br><br>
+                <a href="jurusan.html"> <button class="rt" type="button">Back</button></a><br><br><br>
+</body>
+</html>

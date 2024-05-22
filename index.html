@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Responsive Cards</title>
+  <style>
+    .card-img-bottom {
+      width: 100%;
+      height: 40px;
+      background-image: url('img/20.jpg') no-repeat;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-body ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .card-body ul li {
+      margin-bottom: 10px;
+    }
+
+    .card-body ul li.hr {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><button type="button" class="btn btn-outline-primary">Website</button>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="alamat.html"><button type="button"
+                  class="btn btn-outline-primary">Alamat</button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galery.html"><button type="button"
+                  class="btn btn-outline-primary">Galery</button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jurusan.html"><button type="button"
+                  class="btn btn-outline-primary">Jurusan</button>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"><button type="button" class="btn btn-outline-primary">Dropdown</button>
+
+
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" target="_blank"
+                    href="http://localhost/crud_school/CRUD_SCHOOL/login.php">Login Website School</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="about_school.html">About School</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" target="_blank"
+                    href="https://christofelkrply.github.io/riki06.github.io/index%2001.html">About me</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><button type="button" class="btn btn-outline-primary">Contact</button>
+                        </a>
+                      </li> -->
+          </ul>
+          <!-- <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+
+          <div class="lu">
+            <a href="#" class="link-danger">R</a>
+            <a href="#" class="link-warning">p</a>
+            <a href="#" class="link-info">L</a>
+            <a href="#" class="link-dark">CLUBMAKASSAR</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- close navbar -->
+  <br>
+  <br>
+
+
+  <div>
+    <marquee behavior="" direction="">
+      <h2 class="h2">
+        <a href="#" class="link-success">S</a>
+        <a href="#" class="link-danger">M</a>
+        <a href="#" class="link-warning">K</a>
+        <a href="#" class="link-info">N</a>
+        1 Petasia Timur
+      </h2>
+    </marquee>
+  </div>
+  <br>
+  <br>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/10.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="i">Para guru dan siswa yang telah melakukan UKK</h5>
+          <p class="y">so they took a photo together after carrying out the UKK.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/11.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="p">photo bersama dengan ibu kepsek</h5>
+          <p class="c">Happiness is found when we work together
+            <br> to achieve a bright future.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/06.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="u">Photo guru pengujian</h5>
+          <p class="l">The examining teachers are taking a group
+            <br>photo in front of the office.
+          </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/10.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="i">Para guru dan siswa yang telah melakukan UKK</h5>
+              <p class="y">so they took a photo together after carrying out the UKK.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/11.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="p">photo bersama dengan ibu kepsek</h5>
+              <p class="c">Happiness is found when we work together
+                <br> to achieve a bright future.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/06.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="u">Photo guru pengujian</h5>
+              <p class="l">The examining teachers are taking a group
+                <br>photo in front of the office.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+  <br>
+  <br>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-12 col-md-3 mb-4">
+        <div class="card card-01">
+          <div class="card-body">
+            <h5 class="card-title">Special SMKN 1 Petasia Timur</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-7 mb-4">
+        <div class="card card-02">
+          <div class="card-body">
+            <h5 class="card-title">Website</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-4">
+        <div class="card card-8">
+          <div class="card-body">
+            <h5 class="card-title">Special SMKN 1 Petasia Timur</h5>
+            <p class="card-text">
+              Sekolah Menengah Kejuruan (disingkat SMK) adalah sekolah formal yang menyelenggarakan
+              pendidikan kejuruan pada jenjang pendidikan menengah setara dengan SMA/MA...
+              Sekolah Menengah Kejuruan adalah pendidikan formal yang menyelenggarakan pendidikan kejuruan
+              pada jenjang pendidikan menengah, sebagai lanjutan dari SMP, MTs, atau bentuk lainnya yang sederajat.
+              <br><br><br>
+              Tujuan pendidikan di SMK adalah membentuk setiap lulusan agar siap memasuki dunia kerja, dipekerjakan,
+              atau sebagai wiraswasta. Untuk memenuhi tujuan tersebut diperlukan percepatan dan peningkatan kompetensi
+              siswa.
+              <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-4">
+        <div class="card card-7">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">
+              Sekolah Menengah Kejuruan adalah pendidikan formal yang menyelenggarakan pendidikan kejuruan
+              pada jenjang pendidikan menengah, sebagai lanjutan dari SMP, MTs, atau bentuk lainnya yang sederajat.
+              <br><br><br>
+              Tujuan pendidikan di SMK adalah membentuk setiap lulusan agar siap memasuki dunia kerja, dipekerjakan,
+              atau sebagai wiraswasta. Untuk memenuhi tujuan tersebut diperlukan percepatan dan peningkatan kompetensi
+              siswa.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-4">
+        <div class="card card-6">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">
+              Pendidikan di Indonesia berawal dari pendidikan berbasis keagamaan yang diselenggarakan
+              oleh para pemuka dan penyabar agama Hindu, Buddha, dan Islam. Pada zamannya, mereka telah mengembangkan
+              sistem pendidikan yang relatif “tersruktur” dari segi isi maupun tingkat-tingkatnya.
+              <br><br>
+              Namun sistem pendidikan dalam bentuk sekolah atau menyerupai sekolah sekarang baru dimulai pada abad
+              ke-16.
+              Sekolah pertama di Indonesia didirikan oleh penguasa Portugis di Maluku, Altonio Galvano, pada tahun 1536
+              berupa
+              sekolah seminari untuk anak-anak dari pemuka pribumi.
+              <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-2 mb-4">
+        <div class="card card-03">
+          <div class="card-body">
+            <img class="k4" src="img/05.jpg" alt="">
+            <h5 class="card-title">Bhinneka Tunggal Ika</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-2 mb-4">
+        <div class="card card-06">
+          <div class="card-body">
+            <img class="k4" src="img/13.jpg" alt="">
+            <h5 class="card-title">Alpin Lainua S.Pd,.MP.kim</h5>
+            <p class="card-text">Kepsek SMK N 1 Petasia Timur. <br>Guru yang bertanggung jawab atas Sekolah Menengah
+              Kejuruan [SMK] 1 Petasia Timur</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card card-04">
+          <div class="card-body">
+            <h5 class="card-title">Special title About SMK N 1 Petasia Timur</h5>
+            <p class="card-text">Sekolah ini terletak di bagian Sulawasi Tengah Kab. Morowali Utara Kec. Petasia Timur
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title Card title Para Guru SMK N 1 Petasia Timur</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+    </div>
+    <img src="img/20.jpg" class="card-img-bottom" alt="...">
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

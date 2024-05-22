@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULTIMEDIA</title>
+</head>
+<body>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .p {
+            margin-left: 20px;
+            font-size: 40px;
+            font-family: Sitka Small Semibold;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        span {
+            font-size: 64px;
+            font-family: Sitka Small Semibold;
+            /* margin-left: 16px; */
+            /* color: linear-gradient(blue,red); */
+            color: gray;
+        } 
+
+        .lu {
+            margin-left: 20px;
+            font-size: 12px;
+            opacity: 0;
+            animation: slideRight 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideRight {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .k1 {
+            margin-top: 50px;
+            margin-left: 20px;
+            font-size: 16px;
+            font-family: Sitka Small Semibold;
+            color: mediumblue;
+        }
+
+        .k5 {
+            margin-left: 20px;
+            font-size: 25px;
+            margin-top: 50px;
+            font-family: Sitka Small Semibold;
+            color: mediumblue;
+        }
+
+        .op {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .lu {
+            margin-left: 20px;
+        }
+
+        
+        .k0 {
+            position: relative;
+            margin-left: 20px;
+            font-size: 12px;
+            margin-top: 30px;
+            opacity: 0;
+            animation: slideRight 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideRight {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .k2 {
+            position: relative;
+            margin-left: 20px;
+            font-size: 12px;
+            margin-top: 30px;
+            opacity: 0;
+            animation: slideRight 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideRight {
+            0%{
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 16;
+            }
+        }
+
+        .k6 {
+            margin-left: 20px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .oi {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .nm {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mn {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mo {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .k4 {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mb {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mv {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mc {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .mx {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .zx {
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+            box-shadow: 15px 0 15px black;
+            border-radius: 15px;
+            opacity: 0;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: .5s;
+        }
+
+        @keyframes slideLeft {
+            0%{
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateX(0px);
+                opacity: 16;
+            }
+        }
+
+        .rt {
+        width: 180px;
+            /* margin-top: 20px; */
+            margin-left: 55px;
+            height: 40px;
+            background: black;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+            font-weight: 600;
+    }
+    </style>
+
+    <div class="p">
+        <h2>WELCOME TO INFORMASI <span>MULTIMEDIA </span></h2>
+    </div><br><br>
+    <p class="lu">
+        Jurusan Multimedia merupakan salah satu jurusan yang terdapat di jenjang sekolah menengah kejuruan (SMK) dan universitas. Banyak yang sudah mengetahui mengenai Jurusan Multimedia, akan tetapi tidak banyak yang mengetahui apa itu Jurusan Multimedia. Oleh sebab itu, di bawah ini akan dijelaskan secara lebih detail mengenai Jurusan Multimedia
+    </p>
+    
+    <h2 class="k5">
+        Apa itu MULTIMEDIA..?
+    </h2>
+    <img class="op" src="img/50.png" alt="">
+
+    <p class="k0">
+        Menurut Kamus Besar Bahasa Indonesia (KBBI), pengertian multimedia yaitu penyediaan informasi pada komputer yang menggunakan suara, grafika, animasi, dan juga teks. Multimedia merupakan gabungan lebih dari satu media yang digunakan untuk menyampaikan atau memberikan informasi. <br>
+
+Untuk menguasai atau memahami mengenai multimedia, tentu dibutuhkan pengalaman dan juga pengetahuan yang mumpuni. Oleh sebab itu, ada Jurusan Multimedia yang memang ditujukan untuk memenuhi kompetensi dan mencapai tujuan dari multimedia itu sendiri. Lalu apa sebenarnya Jurusan Multimedia itu? <br>
+
+Seperti yang sudah dijelaskan sebelumnya, Jurusan Multimedia ini terdapat di sekolah menengah kejuruan (SMK). Nantinya, siswa yang mempelajari ilmu multimedia pada Jurusan Multimedia bisa melanjutkan ke jenjang yang lebih tinggi di universitas, baik di Program Studi Komputer, Teknik Informatika, dan lain sebagainya. <br>
+
+Jurusan Multimedia ini mempelajari mengenai penggunaan komputer. Selain itu, siswa yang mengambil Jurusan Multimedia ini juga belajar mengenai bagaimana cara menyajikan data dalam bentuk suara, animasi, teks, gambar, maupun video. <br>
+
+Ada pun materi yang diajarkan atau dipelajari siswa Jurusan Multimedia di SMK yaitu menguasai berbagai macam alat atau tools, misalnya CorelDraw, After Effect, Adobe Photoshop, Freehand, dan lain sebagainya. Dengan demikian, para siswa dituntut harus memahami berbagai tools tadi untuk menguasai bidang multimedia. <br>
+
+Anda juga harus mengenal berbagai mata pelajaran yang diajarkan di Jurusan Multimedia, misalnya Simulasi dan Komunikasi Digital, Sistem Komputer, Komputer dan Jaringan Dasar, Pemrograman Dasar, Dasar Desain Grafis, Desain Media Interaktif, Teknik Pengolahan Audio dan Video, Desain Grafis Percetakan, dan masih banyak lagi. <br></p>
+
+        <h2 class="k1">Fungsia Multimedia</h2>
+        <p class="k6">Sebuah riset dari CTR (Computer Technology Research) memberikan gambaran baru tentang ingatan manusia yang berhubungan dengan komunikasi. Orang lebih mudah mengingat informasi berupa audio yang didengarkan, daripada citra visual yang dilihatnya. <br>
+
+
+            Orang hanya mampu mengingat sekitar 20% informasi yang pernah dilihatnya. Di sisi lain, jika informasi tersebut diperoleh melalui pendengaran, kemampuan memori manusia untuk mengingatnya bisa mencapai 30%. <br>
+            
+            Ini berarti manusia akan lebih mudah mengingat informasi yang disampaikan dalam bentuk kombinasi antara audio dan visual. Hasil riset CTR juga menyimpulkan bahwa orang cenderung bisa mengingat sebanyak 50% informasi yang diperolehnya dari mendengar sekaligus melihat. <br>
+            
+            Hasil riset tersebut mengungkapkan bahwa multimedia berfungsi utama sebagai sarana menyampaikan informasi. Multimedia  menjadikan komunikasi berjalan lebih efektif daripada metode-metode klasik yang selama ini dipakai, terutama dalam hal komunikasi massal.</p>
+
+            <h2 class="k1">Manfaat Multimedia</h2>
+            <p class="k6">
+                Multimedia kini telah merambah ke segala aspek kehidupan. Perkembangan teknologi digital turut mendukungnya. Kemajuan ini memberikan manfaat luar biasa. Multimedia dimanfaatkan di segala bidang untuk berbagai keperluan, di antaranya..
+            </p>
+
+            <h2 class="k1">1. Sarana Informasi Umum</h2>
+            <img class="oi" src="img/51.png" alt="">
+            <p class="k2">Instansi pelayanan publik lebih mudah menyebarkan informasi dengan multimedia. Hanya memerlukan infrastruktur perangkat yang memadai untuk dipasang di lokasi strategis. Di mana publik bisa langsung mengakses dan memperoleh informasi dengan mudah. <br>
+
+                Multimedia mulai banyak ditemukan di berbagai tempat, seperti hotel, stasiun, bandara, pusat perbelanjaan, dan objek wisata tertentu. Tersedia perangkat multimedia yang menyebarkan informasi umum, tanpa pengunjung harus mendatangi saluran khusus. <br>
+                
+                Penerapan ini dapat memangkas waktu dan mengurangi pengeluaran untuk personel bagian informasi. Meski masih akan diperlukan tenaga khusus untuk menyampaikan informasi yang lebih mendetail.</p>
+
+            <h2 class="k1">2. Media Pembelajaran</h2>
+            <img class="nm" src="img/52.png" alt="">
+            <p class="k2">Di sekolah, multimedia akan menjadi media pembelajaran yang efektif. Selama ini metode pengajaran dianggap monoton dan membosankan. Dengan sarana multimedia, ilmu dapat disampaikan secara lebih menarik sehingga anak didik mudah mengingatnya. <br>
+
+                Salah satu contoh penggunaan multimedia adalah pada tugas presentasi. Di mana peserta didik juga menggunakan media interaktif untuk mempresentasikan hasil belajar menggunakan laptop dan proyektor. <br>
+                
+                Di sisi lain, multimedia pun menjadi sarana yang tepat untuk mengetahui minat peserta didik. Peserta didik memiliki kebebasan dalam memilih bidang kegemarannya, belajar sesuai kehendaknya, sehingga lebih aktif mendapatkan pendidikan. <br>
+                
+                
+                Meskipun begitu, multimedia tak lantas menghilangkan peranan para pendidik. Peserta didik yang aktif masih membutuhkan bimbingan dan arahan dari guru dan orang tua, agar mereka memperoleh pembelajaran yang positif.</p>
+
+            <h2 class="k1">Komponen Multimedia</h2>
+            <img class="mn" src="img/53.png" alt="">
+            <p class="k2">Multimedia menggabungkan berbagai jenis komponen di dalamnya. Komponen tersebut dibagi menjadi dua jenis berdasarkan prosesnya, yaitu komponen penyusun dan komponen pengoperasian. Berikut uraian singkat tentang komponen-komponen tersebut. <br><br>
+
+
+                1. Komponen Penyusun <br>
+                Komponen penyusun meliputi elemen-elemen yang biasa digunakan dalam pembuatan sajian multimedia. Di antaranya teks, grafik, suara, foto, gambar diam dan gambar bergerak, serta animasi. <br><br>
+                
+                2. Komponen Pengoperasian <br>
+                Komponen pengoperasian merupakan perangkat yang dipakai dalam membuat, mengontrol, memutar, dan menampilkan karya multimedia. Di antaranya komputer, software, layar multimedia, speaker, jaringan internet, cakram CD, DVD, dan sebagainya.</p>
+
+            <h2 class="k1">Jenis-Jenis Multimedia</h2>
+            <p class="lu">Ada banyak klasifikasi pada multimedia, sehingga jenisnya pun menjadi bermacam-macam. <br> Berdasarkan aksesnya, multimedia dibagi menjadi dua jenis, yaitu multimedia online dan offline. Perbedaannya hanya terletak pada penggunannya yang membutuhkan jaringan internet. <br>
+
+                Jika dilihat dari metode penyajiannya, multimedia dibedakan menjadi lima jenis. <br> Di antaranya multimedia berbasis kertas (buku dan majalah), cahaya (slideshow dan transparansi), suara (radio dan tape), gambar bergerak (televisi), dan digital (komputer dan ponsel pintar). <br>
+                
+                Pengelompokkan multimedia menggunakan variabel yang cukup bervariasi. <br> Berdasarkan sifat penggunaannya, komunikasi multimedia dikelompokkan dalam tiga tipe, yaitu multimedia interaktif, hiperaktif, dan linier. Berikut penjelasan masing-masing jenis tersebut. <br><br>
+                
+                1. Multimedia interaktif. Adalah jenis multimedia yang memungkinkan pengguna dapat mengontrol komponen-komponen di dalamnya. <br> Tipe ini lebih mengutamakan personalisasi pemakain multimedia sesuai keinginan penggunanya. <br>
+                2. Multimedia hiperaktif. Merupakan jenis komunikasi multimedia yang memanfaatkan hubungan antara setiap komponen multimedia. <br> Sifatnya juga interaktif, sehingga pengguna dapat memilih asupan informasi sesuai selera melalui tautan yang tersedia. <br>
+                3. Multimedia linier. Adalah jenis multimedia yang bersifat tidak interaktif. <br> Artinya pengguna hanya bisa menikmati sajian informasi secara linier, tanpa memiliki kesempatan untuk mengontrolnya sendiri.</p>
+                <br><br><br><br><br>
+                <a href="jurusan.html"> <button class="rt" type="button">Back</button></a><br><br><br>
+</body>
+</html>

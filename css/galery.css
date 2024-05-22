@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* display: flex; */
+    /* position: fixed; */
+    padding: 10px;
+}
+
+
+.h2 {
+    margin-left: 550px;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: Matura MT Script Capitals;
+}
+
+.h2:hover {
+    color: lime;
+    /* font-size: 20px; */
+    /* animation-duration: 3s; */
+    cursor: pointer;
+}
+
+.lu {
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: Colonna mt;
+}
+
+.container-fluid p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    font-family: Colonna MT;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .1s;
+}
+
+
+@keyframes slideTop {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+.container-fluid .h {
+    color: black;
+}
+
+.container-fluid .card-title {
+    color: black;
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    font-family: colonna mt;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .1s;
+}
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+img{
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .1s;
+}
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.container .display-3 {
+    position: relative;
+    font-size: 40px;
+    line-height: 1.4;
+    margin-bottom: 100px;
+    background: transparent;
+    color: black;
+    font-weight: 700;
+    font-family: 'ENGRAVERS MT';
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .1s;   
+}
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

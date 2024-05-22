@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.lu {
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: Colonna mt;
+}
+
+.h2 {
+    margin-left: 450px;
+    font-size: 40px;
+    /* font-weight: 600; */
+    font-family: Matura MT Script Capitals;
+}
+
+.h2:hover {
+    color: lime;
+    /* font-size: 20px; */
+    /* animation-duration: 3s; */
+    cursor: pointer;
+}
+
+.container {
+    /* display: flex; */
+    /* position: fixed; */
+    padding: 10px;
+}
+
+.navbar-brand-o {
+    margin-left: 500px;
+    font-size: 20px;
+    font-family: Sitka Small Semibold;
+    text-transform: uppercase;
+    /* cursor: default; */
+}
+
+.l {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.i {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+.h4 {
+    display: inline-block;
+    position: relative;
+    font-family:  Sitka Small Semibold ;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.pi {
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    font-family: Sitka Small Semibold;
+    margin-left: 50px;
+    margin-top: 70px;
+    /* margin-bottom: 200px; */
+}
+
+.navbar-brand-p {
+    position: relative;
+    margin-left: 51px;
+    margin-top:190px;
+}
+
+.navbar-brand-r {
+    position: relative;
+    margin-left: 51px;
+    margin-top:144px;
+}
+
+.navbar-brand-po {
+    position: relative;
+    margin-left: 51px;
+    margin-top:170px;
+}
+
+.navbar-brand-pu {
+    position: relative;
+    margin-left: 51px;
+    margin-top:147px;
+}
+
+.navbar-brand-pi {
+    position: relative;
+    margin-left: 51px;
+    margin-top:140px;
+}
+
+.navbar-brand-pp {
+    position:relative;
+    margin-left: 51px;
+    margin-top:210px;
+}

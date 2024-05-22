@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background: radial-gradient(#F3D7CA, #FFF8E3);
+}
+
+.container {
+    padding: 10px;
+}
+
+.h2 {
+    margin-left: 450px;
+    font-size: 40px;
+    /* font-weight: 600; */
+    font-family: Matura MT Script Capitals;
+}
+
+.carousel-item {
+    height: 700px;
+    width: 1400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.lu {
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: Colonna mt;
+}
+
+
+.h2:hover {
+    color: lime;
+    /* font-size: 20px; */
+    /* animation-duration: 3s; */
+    cursor: pointer;
+}
+
+.u {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Matura MT Script Capitals;
+    color: rgb(255, 255, 255);
+    /* margin-bottom: 450px; */
+}
+
+.l {
+    font-size: 30px;
+    /* font-weight: 600; */
+    font-family: Colonna MT;
+    color: rgb(255, 255, 255);
+    margin-bottom: 410px;
+}
+
+.p {
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Matura MT Script Capitals;
+    color: black;
+}
+
+.c {
+    font-size: 30px;
+    /* font-weight: 600; */
+    font-family: Colonna MT;
+    color: black;
+    margin-bottom: 430px;
+}
+
+.i {
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Matura MT Script Capitals;
+    color: black;
+}
+
+.y {
+    font-size: 30px;
+    /* font-weight: 600; */
+    font-family: Colonna MT;
+    color: black;
+    margin-bottom: 450px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Colonna MT;
+    color: black;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 450px; */
+
+}

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>RPL</title>
+</head>
+
+<style>
+    .kuk .p {
+        margin-left: 50px;
+        font-size: 40px;
+        font-family: Sitka Small Semibold;
+        opacity: 0;
+        animation: slideTop 1s ease forwards;
+        animation-delay: .1s;
+    }
+
+
+    @keyframes slideTop {
+        0% {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+    span {
+        font-size: 40px;
+        font-family: Sitka Small Semibold;
+        /* margin-left: 550px; */
+        color: lawngreen;
+    }
+
+    .lol {
+        font-size: 15px;
+        margin-left: 20px;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 10;
+        }
+    }
+
+
+    .po {
+        margin-left: 20px;
+        font-size: 19px;
+        font-family: Sitka Small Semibold;
+        color: mediumblue;
+    }
+
+    .lo {
+        font-size: 12px;
+        margin-left: 20px;
+        animation: slideRight 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 10;
+        }
+    }
+
+
+    .l {
+        margin-left: 20px;
+        font-size: 25px;
+        font-family: Sitka Small Semibold;
+        color: mediumblue;
+    }
+
+    .li {
+        margin-left: 20px;
+        font-size: 12px;
+        margin-top: 30px;
+        /* position: absolute; */
+        /* margin-left: 300px; */
+        animation: slideRight 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 10;
+        }
+    }
+
+    .k {
+        margin-left: 20px;
+        font-size: 25px;
+        font-family: Sitka Small Semibold;
+        color: mediumblue;
+    }
+
+    .lu {
+        margin-left: 20px;
+        font-size: 12px;
+        animation: slideRight 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 10;
+        }
+    }
+
+    .lp {
+        margin-left: 30px;
+        font-size: 17px;
+        font-family: Sitka Small Semibold;
+        color: mediumblue;
+    }
+
+    .py {
+        width: 500px;
+        height: 300px;
+        box-shadow: 15px 0 15px black;
+        border-radius: 15px;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 16;
+        }
+    }
+
+    .pl {
+        width: 500px;
+        height: 300px;
+        box-shadow: 15px 0 15px black;
+        border-radius: 15px;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 16;
+        }
+    }
+
+    .ol {
+        /* position: absolute; */
+        margin-left: 20px;
+        margin-top: 30px;
+        animation: slideRight 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 10;
+        }
+    }
+
+    .ll {
+        width: 500px;
+        height: 300px;
+        box-shadow: 15px 0 15px black;
+        border-radius: 15px;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 16;
+        }
+    }
+
+    .e {
+        margin-left: 20px;
+        margin-top: 30px;
+        animation: slideRight 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 10;
+        }
+    }
+
+    .pu {
+        width: 500px;
+        height: 300px;
+        box-shadow: 15px 0 15px black;
+        border-radius: 15px;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 16;
+        }
+    }
+
+    .w {
+        margin-left: 20px;
+        margin-top: 30px;
+        animation: slideRight 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 10;
+        }
+    }
+
+    .ty {
+        width: 500px;
+        height: 300px;
+        box-shadow: 15px 0 15px black;
+        border-radius: 15px;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 16;
+        }
+    }
+
+    .pol {
+        margin-left: 20px;
+        margin-top: 30px;
+        animation: slideRight 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 10;
+        }
+    }
+
+    .de {
+        margin-top: 80px;
+        font-size: 30px;
+        font-family: Sitka Small Semibold;
+        color: mediumblue;
+    }
+
+    .poy {
+        width: 500px;
+        height: 300px;
+        box-shadow: 15px 0 15px black;
+        border-radius: 15px;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 16;
+        }
+    }
+
+
+    .lop {
+        margin-left: 20px;
+        margin-top: 30px;
+        animation: slideRight 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 10;
+        }
+    }
+
+    .lk {
+        margin-left: 20px;
+        animation: slideRight 1s ease forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 10;
+        }
+    }
+
+    .rt {
+        width: 180px;
+        /* margin-top: 20px; */
+        margin-left: 55px;
+        height: 40px;
+        background: black;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
+    }
+</style>
+
+<body>
+
+    <div class="kuk">
+        <h2 class="p">
+            WELCOME TO INFORMASI REKAYASA PERANGKAT LUNAK <span>[RPL]</span>
+        </h2>
+        <p class="lol">
+            Perangkat Lunak Pengertian, Fungsi dan Contohnya Lengkap
+            Oleh RobiDiposting pada April 4, 2024
+            Seiring dengan perkembangan teknologi yang semakin pesat, perangkat lunak komputer telah menjadi bagian yang
+            tak terpisahkan dalam kehidupan kita sehari-hari. Banyak hal dilakukan oleh berbagai software. Semuanya
+            membantu mempermudah aktivitas manusia.
+
+            Dari penggunaan aplikasi yang sederhana hingga sistem yang kompleks, software menjadi kunci dalam upaya
+            menjalankan berbagai aktivitas. Memahami berbagai jenisnya tentu saja akan memberikan kita wawasan yang
+            mendalam tentang dunia digital.
+
+            Dalam artikel ini, akan dijelaskan berbagai aspek menarik mengenai software komputer. Mulai dari pengertian,
+            jenis serta fungsinya. Bagi Anda yang ingin menambah wawasan seputar pembahasan ini, dapat menyimak ulasan
+            dalam artikel sampai selesai.
+        </p>
+        <br>
+        <h2 class="po">
+            PENGERTIAN PERANGKAT LUNAK
+        </h2>
+        <p class="lo">
+            Perangkat lunak adalah kumpulan perintah yang dijalankan oleh komputer untuk menyelesaikan pekerjaan.
+            Software mencakup instruksi, program, dan data yang diperlukan untuk mengoperasikan sistem komputer.
+
+            Sebagai penyimpanan perintah, dokumen, dan arsip, software berfungsi sebagai penghubung antara pengguna dan
+            perangkat keras. Melalui logika yang dirancang, software mengolah berbagai aspek. Misalnya sistem operasi,
+            program, dan data, memastikan komunikasi yang efektif antara pengguna dan mesin komputer.
+        </p>
+        <br>
+        <h2 class="l">
+            SEJARAH SOFTWARE
+        </h2>
+        <img class="py" src="img/32.png" alt=""><br>
+        <p class="li">
+            Software merupakan instruksi terprogram yang disimpan di memori komputer, berbentuk program yang dieksekusi oleh prosesor. Perkembangan software menjadi bagian penting dalam sejarah manusia dan kebutuhan mendasar di era informasi.
+
+            Sejarah software dimulai sebelum adanya komputer, dengan Charles Babbage sebagai penggagas konsep software pada pertengahan 1800-an. Namun, teori software pertama kali diusulkan oleh Alan Turing pada 1935, dan kata “software” dicetuskan oleh John Tukey pada 1958.
+
+            Generasi pertama muncul pada 1940-an dengan instruksi yang ditulis menggunakan kode biner untuk komputer mainframe. Seiring berjalannya waktu, bahasa pemrograman semakin berkembang, mengikuti kemajuan teknologi. Turut berkembangnya teknologi memacu perkembangan software menjadi lebih canggih dan efisien.
+        </p>
+        <br>
+
+        <h2 class="k">
+            MACAM-MACAM SOFTWARE
+        </h2>
+        <p class="lu">
+            Dalam dunia teknologi, perangkat lunak atau software memegang peranan penting dalam memaksimalkan fungsi
+            komputer. Ada berbagai macam program yang digunakan untuk tujuan yang berbeda.
+
+            Berikut ini adalah beberapa jenis perangkat lunak yang dirancang untuk memenuhi berbagai kebutuhan pengguna:
+        </p>
+
+        <br>
+        <h4 class="lp"> 1. Software Sistem Operasi </h4><br>
+        <img class="pl" src="img/27.png" alt=""><br>
+        <p class="ol">
+            Merupakan software yang mengatur komputer sehingga dapat menerima dan menjalankan perintah dasar. <br>
+            Program ini terdiri dari program yang bertugas untuk melayani program lainnya. <br> Sebelum memasang program
+            lain, sistem operasi ini harus ada dahulu di komputer.</p>
+
+        <br>
+        <h4 class="lp"> 2. Software Aplikasi Perkantoran </h4><br>
+        <img class="ll" src="img/28.png" alt=""><br>
+        <p class="e">
+            Digunakan untuk menyelesaikan pekerjaan kantor, seperti mengetik, membuat tabel, mengelola database, dan
+            mengolah gambar. <br> Termasuk dalam kategori ini adalah database application, yang digunakan untuk mengolah
+            data dalam berbagai skala baik secara lokal maupun melalui internet.</p>
+
+        <br>
+        <h4 class="lp"> 3. Software Pemrograman </h4><br>
+        <img class="pu" src="img/29.png" alt=""><br>
+        <p class="w">
+            Software ini bertugas untuk menerjemahkan instruksi dari bahasa pemrograman ke kode bahasa mesin. <br> Dalam
+            aplikasinya, fungsinya biasa digunakan untuk menulis, menguji, dan mengembangkan program komputer.</p>
+
+        <br>
+        <h4 class="lp"> 4. Software Tambahan </h4><br>
+        <img class="ty" src="img/30.png" alt="">
+        <p class="pol">
+            Aplikasi pendukung yang membantu pengelolaan komputer, seperti mengkompres file, mengkopi data, dan
+            sebagainya. <br> Software ini berguna untuk optimasi dan pemeliharaan sistem komputer.
+        </p>
+
+        <h2 class="de">
+            Fungsi Perangkat Lunak
+        </h2>
+        <img class="poy" src="img/31.png" alt="">
+        <p class="lop">
+            Dalam dunia teknologi informasi, software atau perangkat lunak memainkan peran penting dalam berbagai aspek
+            operasional komputer. <br> Fungsi software meliputi beberapa komponen utama yang sangat esensial dalam
+            penggunaan komputer:</p> <br>
+
+        <br>
+        <h4 class="lp">1. Memproses Data, Perintah, dan Instruksi </h4><br>
+        <p class="lk">Software memungkinkan pengguna untuk memproses data, perintah, dan instruksi khusus sehingga
+            komputer dapat menghasilkan informasi sesuai dengan keinginan pengguna. <br> Dengan begitu, pengguna dapat
+            memperoleh hasil yang diharapkan dari komputernya.</p> <br>
+
+        <h4 class="lp">2. Sarana Interaksi dengan Perangkat Lain </h4><br>
+        <p class="lk">Software berfungsi sebagai penghubung antara pengguna dan perangkat keras lainnya dalam sistem
+            komputer. <br> Dengan adanya perangkat lunak, pengguna dapat berinteraksi dengan perangkat keras dengan
+            lebih mudah. <br></p>
+
+        <h4 class="lp">3. Mengidentifikasi Program dalam Komputer </h4><br>
+        <p class="lk"> Software bertugas untuk mengidentifikasi dan mengorganisir berbagai program yang ada di dalam
+            komputer. <br> Dengan tugas ini, akan memudahkan pengguna dalam mengelola dan mengaksesnya. <br></p>
+
+        <h4 class="lp">4. Menyediakan Fungsi Dasar Perangkat Keras </h4><br>
+        <p class="lk">Program komputer menjalankan fungsi dasar dari perangkat keras sehingga perangkat tersebut dapat
+            dioperasikan. <br> Contohnya adalah sistem operasi yang memungkinkan komputer untuk menjalankan berbagai
+            program dan aplikasi. <br></p>
+
+        <h4 class="lp">5. Penerjemah Perintah Software Lain </h4><br>
+        <p class="lk"> Salah satu fungsi penting lainnya adalah sebagai penerjemah perintah dari software lain ke dalam
+            bahasa mesin, yang kemudian dapat dimengerti oleh komputer. <br> Proses ini memastikan komunikasi yang mulus
+            antara software dan komputer.</p>
+    </div><br><br><br>
+    <a href="jurusan.html"> <button class="rt" type="button">Back</button></a> <br><br><br><br>
+
+</body>
+
+</html>
